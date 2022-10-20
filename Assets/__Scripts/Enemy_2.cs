@@ -7,7 +7,7 @@ public class Enemy_2 : Enemy {
     [Header("Set in Inspector: Enemy_2")]
     // Determines how much the sine wave will affect movement
     public float sinEccentricity = 0.6f;
-    public float lifeTime = 10;
+    public float lifeTime = 1; // CHANGE FROM 10 TO 10
 
     [Header("Set Dynamically: Enemy_2")]
     // Enemy_2 uses a Sin wave to modify a 2-point linear interpolation

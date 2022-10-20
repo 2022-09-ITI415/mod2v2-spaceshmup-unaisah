@@ -28,7 +28,7 @@ public class Enemy_4 : Enemy {
 
     private Vector3 p0, p1; // The two points to interpolate
     private float timeStart; // Birth time for this Enemy_4
-    private float duration = 4; // Duration of movement
+    private float duration = 1; // Duration of movement // changed from 4 to 1
 
     private void Start()
     {

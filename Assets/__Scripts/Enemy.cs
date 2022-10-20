@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
 
     [Header("Set in Inspector: Enemy")]
-    public float speed = 0.5f; // The speed in m/s
+    public float speed = 0.1f; // The speed in m/s // CHANGE
     public float fireRate = 0.3f; // Seconds/shot (Unused)
     public float health = 1;
     public int score = 100; // Points earned for destroying this
