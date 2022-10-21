@@ -49,7 +49,7 @@ public class HeroBestfriend : MonoBehaviour
     void Update()
     {
         // Pull in information from the Input class
-        float xAxis = Input.GetAxis("Horizontal");
+        float xAxis = Input.GetAxis("Horizontal Friend");
         float yAxis = Input.GetAxis("Vertical");
 
         // Change transform.position based on the axes
