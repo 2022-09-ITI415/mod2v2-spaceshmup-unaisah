@@ -19,7 +19,7 @@ public class Part
     public GameObject go; // The GameObject of this part
     [HideInInspector]
     public Material mat; // The Material to show damage
-}
+} // changed speed on unity to 3 from 10
 
 public class Enemy_4 : Enemy {
 

@@ -9,7 +9,7 @@ public class PowerUp : MonoBehaviour {
     // and y a max value for a Random.Range() that will be called later
     public Vector2 rotMinMax = new Vector2(15, 90);
     public Vector2 driftMinMax = new Vector2(.25f, 2);
-    public float lifeTime = 6f; // Seconds the PowerUp exists
+    public float lifeTime = 10f; // Seconds the PowerUp exists // changed from 6 to 10
     public float fadeTime = 4f; // Seconds it will then fade
 
     [Header("Set Dynamically")]
