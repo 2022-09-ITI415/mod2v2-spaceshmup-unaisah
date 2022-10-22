@@ -19,7 +19,7 @@ public class Part
     public GameObject go; // The GameObject of this part
     [HideInInspector]
     public Material mat; // The Material to show damage
-}
+} // changed speed on unity to 3 from 10
 
 public class Enemy_4 : Enemy {
 
@@ -28,7 +28,7 @@ public class Enemy_4 : Enemy {
 
     private Vector3 p0, p1; // The two points to interpolate
     private float timeStart; // Birth time for this Enemy_4
-    private float duration = 4; // Duration of movement
+    private float duration = 1; // Duration of movement // changed from 4 to 1
 
     private void Start()
     {

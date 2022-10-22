@@ -6,7 +6,7 @@ public class Enemy_3 : Enemy { // Enemy_3 extends Enemy
     // Enemy_3 will move following a Bezier curve, which is a linear
     // interpolation between more than two points.
     [Header("Set in Inspector: Enemy_3")]
-    public float lifeTime = 5;
+    public float lifeTime = 1; // changed from 5 to 1
 
     [Header("Set Dynamically: Enemy_3")]
     public Vector3[] points;
